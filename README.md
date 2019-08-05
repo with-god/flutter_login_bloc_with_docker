@@ -18,5 +18,6 @@ time : 1hour
 
 ```
 cd server
-cdocker-compose up --build
+docker-compose up --build
 ```
+

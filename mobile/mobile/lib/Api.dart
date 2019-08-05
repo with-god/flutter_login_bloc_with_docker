@@ -11,10 +11,11 @@ class Api implements Source {
     // 서버 통신
 
     final response =
-      await http.post('http://eec7e973.ngrok.io/api/auth', body: user.toJson());
+      await http.post('http://aa8b8da5.ngrok.io/api/auth', body: user.toJson());
 
     if(response.statusCode == 200) {
-      final data = jsonDecode(response.body);      
+      final data = jsonDecode(response.body);
+      print(data);
       final isLogin = data['result'];
       return isLogin;
     } else {
