@@ -6,7 +6,7 @@ import 'package:mobile/user.dart';
 import 'package:http/http.dart' as http;
 
 class Api implements Source {
-  final _url = 'http://70b7c797.ngrok.io/api/';
+  final _url = 'http://aa8b8da5.ngrok.io/api/';
   @override
   Future<bool> loginProc(User user) async {
     // 서버 통신
